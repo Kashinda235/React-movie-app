@@ -2,11 +2,15 @@ import React from "react"
 
 const App = () => {
   return (
-    <div>
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-    </h1>
+    <main>
+      <div className="pattern"/>
+    <div className="wrapper">
+      <header>
+        <h1>Find <span className="text-gradient">Movie</span> Youl'll Enjoy without a hassel</h1>
+      </header>
     </div>
+    </main>
+
   )
 }
 
