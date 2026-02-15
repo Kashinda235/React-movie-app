@@ -4,8 +4,14 @@ const PROJECT_ID = import.meta.env.VITE_APPWRITE_PROJECT_ID;
 const DATABASE_ID = import.meta.env.VITE_APPWRITE_DATABASE_ID;
 const COLLECTION_ID = import.meta.env.VITE_APPWRITE_COLLECTION_ID;
 
+console.log('Appwrite Config:', {
+  projectId: PROJECT_ID,
+  databaseId: DATABASE_ID,
+  collectionId: COLLECTION_ID,
+})
+
 const client = new Client()
-  .setEndpoint('https://fra.cloud.appwrite.io/v1')
+  .setEndpoint('https://sgp.cloud.appwrite.io/v1')
   .setProject(PROJECT_ID)
 
 const database = new Databases(client);
