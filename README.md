@@ -41,8 +41,8 @@ A modern React application that allows users to search for movies and tracks "Tr
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/movie-app.git
-cd movie-app
+git clone https://github.com/Kashinda235/React-movie-app.git
+cd React-movie-app
 
 ```
 
