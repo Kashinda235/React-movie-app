@@ -18,7 +18,7 @@ If you are developing a production application, we recommend using TypeScript wi
 # 🎬 Movie Pro: Trending Movies & Search
 
 A modern React application that allows users to search for movies and tracks "Trending" titles using **Appwrite** as a backend-as-a-service.
-[Visit Movie Pro](https://nitya-nadi.netlify.app/)
+[Visit Movie Pro](https://filmyspecial.netlify.app/)
 
 ## 🚀 Features
 
